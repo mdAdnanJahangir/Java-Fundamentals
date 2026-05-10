@@ -1,4 +1,4 @@
-package typesOfOutput;
+package Input_output;
 
 public class Output {
     public static void main(String[] args) {
@@ -6,7 +6,6 @@ public class Output {
         System.out.print("year ");
 
         System.out.printf("20%d ", 26 );
-
 
     }
 }
