@@ -12,10 +12,7 @@ public class Input
         String name = input.nextLine();
         double pi=input.nextDouble();
 
-
         System.out.println(name+pi);
-
-
 
     }
 }
