@@ -13,14 +13,8 @@ public class MutableString {
         System.out.println(sb);
 
 
-
-
-
-
-
-
-
-
+        StringBuilder s = new StringBuilder();
+        String st = s.toString();
 
     }
 }
