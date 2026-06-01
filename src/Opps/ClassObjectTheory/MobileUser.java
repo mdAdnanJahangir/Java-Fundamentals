@@ -4,7 +4,22 @@ class Mobile
 {
     String brand;
     int price;
-    static String name;
+    static String name= "smartphone";
+
+
+
+    public Mobile(String b,int p){
+         brand=b;
+        price=p;
+    }
+    public Mobile(){
+
+    }
+
+
+
+
+
 
     public void show()
     {
@@ -18,8 +33,14 @@ public class MobileUser {
         Mobile obj1 = new Mobile();
         obj1.brand= "apple";
         obj1.price=999;
-        Mobile.name = "smartphone";
+
         obj1.show();
+
+
+        Mobile obj2 = new Mobile("samsung",888);
+        obj2.show();
+
+
 
     }
 
