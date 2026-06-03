@@ -1,17 +1,7 @@
 package Opps.ClassObjectTheory;
 
 
-class Advcalc{
-    void mul(){
-        System.out.println("multiply");
-    }
-    void div(){
-        System.out.println("div");
-    }
-}
-
-
-class calc extends Advcalc{
+class calc {
     void add(){
         System.out.println("add");
     }
@@ -21,12 +11,32 @@ class calc extends Advcalc{
 }
 
 
+class Advcalc extends calc{
+    void mul(){
+        System.out.println("multiply");
+    }
+    void div(){
+        System.out.println("div");
+    }
+}
+
+
+class Scicalc extends Advcalc {
+    void sci(){
+        System.out.println("scienific");
+    }
+
+}
+
+
+
 public class CalculatorUser {
     public static void main(String[] args) {
-        calc obj = new calc();
+        Scicalc obj = new Scicalc();
         obj.add();
         obj.sub();
         obj.mul();
         obj.div();
+        obj.sci();
     }
 }
