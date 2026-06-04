@@ -1,4 +1,4 @@
-package Opps.ClassObjectTheory;
+package Opps.Inheritance;
 
 
 class calc {
