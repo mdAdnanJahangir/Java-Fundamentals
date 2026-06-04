@@ -8,16 +8,13 @@ class Mobile
 
 
 
-    public Mobile(String b,int p){
-         brand=b;
-        price=p;
+    public Mobile(String brand,int price){
+         this.brand=brand;
+       this.price=price;
     }
     public Mobile(){
 
     }
-
-
-
 
 
 
