@@ -16,7 +16,13 @@ class Mobile
 
     }
 
+    public int getPrice() {
+        return price;
+    }
 
+    public void setPrice(int price) {
+        this.price = price;
+    }
 
     public void show()
     {
@@ -29,7 +35,9 @@ public class MobileUser {
     public static void main(String[] args) {
         Mobile obj1 = new Mobile();
 //        obj1.brand= "apple";
-//        obj1.price=999;
+        obj1.getPrice();
+        obj1.setPrice(1000);
+
 
         obj1.show();
 
