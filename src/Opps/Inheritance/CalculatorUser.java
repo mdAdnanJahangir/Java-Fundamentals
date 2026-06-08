@@ -5,6 +5,10 @@ class calc {
     void add(){
         System.out.println("add");
     }
+    int add(int a ,int b ){
+        System.out.println("add");
+        return a+b;
+    }
     void sub(){
         System.out.println("sub");
     }
@@ -41,6 +45,7 @@ class Scicalc extends Advcalc {
 public class CalculatorUser {
     public static void main(String[] args) {
         Scicalc obj = new Scicalc("bajaj calculator");
+        int ans = obj.add(2,2);//
         obj.add();
         obj.sub();
         obj.mul();
