@@ -38,6 +38,11 @@ class Scicalc extends Advcalc {
         System.out.println("scienific");
     }
 
+    @Override
+    void add(){
+        System.out.println("in over riden add");
+    }
+
 }
 
 
@@ -45,7 +50,7 @@ class Scicalc extends Advcalc {
 public class CalculatorUser {
     public static void main(String[] args) {
         Scicalc obj = new Scicalc("bajaj calculator");
-        int ans = obj.add(2,2);//
+        //int ans = obj.add(2,2);//
         obj.add();
         obj.sub();
         obj.mul();
