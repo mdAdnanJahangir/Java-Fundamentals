@@ -63,9 +63,9 @@ public class CalculatorUser {
         calc obj2= new Scicalc("BMV calculator");
         obj2.add();
         obj2.sub();
-        obj2.mul();
-        obj2.div();
-        obj2.sci();
+//        obj2.mul();
+//        obj2.div();
+//        obj2.sci();
 
 
     }
