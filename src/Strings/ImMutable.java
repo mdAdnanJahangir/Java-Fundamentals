@@ -18,5 +18,15 @@ public class ImMutable {
         System.out.println(s1 == s2);
 
 
+        String str = s1.substring(0,2);
+        System.out.println(str);
+        s1.length();
+        Boolean ans =s1.contains("A");
+        System.out.println(ans);
+
+
+
+
+
     }
 }
