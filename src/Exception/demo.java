@@ -8,9 +8,12 @@ public class demo {
 
 
         try{
+            if(j==0)
+                throw new ArithmeticException(" hello ");
              j = 18/i;
-        }catch(Exception e ){
-            System.out.println("someting went wrong" + e);
+
+        }catch(ArithmeticException e ){
+            System.out.println("hellooooo " + e);
         }
 
 
